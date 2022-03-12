@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\models\Barang;
+use App\Models\Barang;
 
 class FrontController extends Controller
 {
