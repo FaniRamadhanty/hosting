@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 @section('content')
 
@@ -30,11 +29,11 @@
         <link href="{{ asset('assets/assets/css/style.css') }}" rel="stylesheet">
 
         <!-- =======================================================
-          * Template Name: Lumia - v4.7.0
-          * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-          * Author: BootstrapMade.com
-          * License: https://bootstrapmade.com/license/
-          ======================================================== -->
+                  * Template Name: Lumia - v4.7.0
+                  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
+                  * Author: BootstrapMade.com
+                  * License: https://bootstrapmade.com/license/
+                  ======================================================== -->
     </head>
 
     <body>
@@ -55,8 +54,9 @@
                 <div class="container">
 
                     <div class="section-title">
+                    <br><br>
                         <h2>apa yang kita jual? </h2>
-                        <b>Treadmill  | Weight Plates | Rowing Machine</b>
+                        <b>Treadmill | Weight Plates | Rowing Machine</b>
                     </div>
 
                     <div class="row">
@@ -95,7 +95,8 @@
 
                     <div class="row">
                         <div class="col-lg-6">
-                            <img src="{{ asset('assets/assets/img/about.jpg') }}" class="img-fluid" style="height:400px; " alt="">
+                            <img src="{{ asset('assets/assets/img/about.jpg') }}" class="img-fluid"
+                                style="height:400px; " alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0">
                             <h3>About Sport</h3>
@@ -242,6 +243,11 @@
 
                         </div>
                     </section>
+                    <div class="row mt-5 justify-content-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63365.752115434!2d107.592842!3d-6.966847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x658cc60fbe5017b9!2sSMK%20Assalaam%20Bandung!5e0!3m2!1sid!2sid!4v1647235979981!5m2!1sid!2sid"
+                            width="650" height="350" style="border:0;"></iframe>
+                    </div>
                 </div>
             </section><!-- End Portfolio Section -->
 
@@ -262,7 +268,7 @@
                     <div class="container">
                         <div class="row"> --}}
 
-                            {{-- <div class="col-lg-3 col-md-6 footer-contact">
+                {{-- <div class="col-lg-3 col-md-6 footer-contact">
                                 <h3>Lumia</h3>
                                 <p>
                                     A108 Adam Street <br>
@@ -272,8 +278,7 @@
                                     <strong>Email:</strong> info@example.com<br>
                                 </p>
                             </div> --}}
-{{-- 
-                            <div class="col-lg-2 col-md-6 footer-links">
+                {{-- <div class="col-lg-2 col-md-6 footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
                                     <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -284,7 +289,7 @@
                                 </ul>
                             </div> --}}
 
-                            {{-- <div class="col-lg-3 col-md-6 footer-links">
+                {{-- <div class="col-lg-3 col-md-6 footer-links">
                                 <h4>Our Services</h4>
                                 <ul>
                                     <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -295,7 +300,7 @@
                                 </ul>
                             </div> --}}
 
-                            {{-- <div class="col-lg-4 col-md-6 footer-newsletter">
+                {{-- <div class="col-lg-4 col-md-6 footer-newsletter">
                                 <h4>Join Our Newsletter</h4>
                                 <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
                                 <form action="" method="post">
@@ -303,20 +308,20 @@
                                 </form>
                             </div> --}}
 
-                        {{-- </div>
+                {{-- </div>
                     </div>
                 </div> --}}
 
                 <div class="container d-md-flex py-4">
 
-                
-                    </div>
-                    <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="tiktok"><i class="bx bxl-tiktok"></i></a>
-                        
-                    </div>
+
+                </div>
+                <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+
+                </div>
                 </div>
             </footer><!-- End Footer -->
 

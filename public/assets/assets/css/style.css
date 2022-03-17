@@ -139,7 +139,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 5px 11px 10px 20px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -387,7 +387,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 23 px 0;
 }
 
 .section-bg {

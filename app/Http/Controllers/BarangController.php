@@ -92,8 +92,9 @@ class BarangController extends Controller
     public function edit($id)
     {
         $barangs = Barang::findOrFail($id);
+        $kategori = Kategori::all();
 
-        return view('barang.edit')->with(compact('barangs'));
+        return view('barang.edit')->with(compact('barangs','kategori'));
 
     }
 
